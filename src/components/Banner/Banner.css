@@ -27,10 +27,9 @@
 
 .titleHome {
     position: absolute;
-    font-family: "Montserrat";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 36px;
-    line-height: 120%;
+    line-height: 120;
     color: #ffffff;
 }

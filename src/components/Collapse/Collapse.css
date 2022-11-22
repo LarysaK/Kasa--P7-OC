@@ -1,9 +1,10 @@
-.container {
-    width: 100%;
+.containerCollapse {
+    width: 80%;
     padding-right: 4rem;
+    color: #ff6060;
 }
 
-.title {
+.titleCollapse {
     width: auto;
     height: 47px;
     border-radius: 5px;
@@ -15,9 +16,10 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 24px;
     line-height: 142.6%;
-    color: #ffffff; 
+    color: white; 
+    background-color: #ff6060;
 }
 
 .title:hover {
@@ -35,7 +37,7 @@
     transition: all 0.2s;
 }
 
-.content {
+.contentCollapse {
     background: #f7f7f7;
     border-radius: 5px;
     font-family: "Montserrat";
@@ -47,3 +49,44 @@
     padding: 1rem 2rem 1rem 2rem;
     width: auto;
 }
+
+/* .containerCollapse {
+    width: 1023px;
+    height: 184px;
+}
+
+.titleCollapse {
+    width: 1023px;
+    height: 47px;
+    background: #FF6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34.22px;
+    color: #FFFFFF;
+}
+
+.arrow {
+    transform: rotate(0deg);
+    transition: all 0.2s;
+}
+
+.arrowOpen {
+    transform: rotate(180deg);
+    transition: all 0.2s;
+}
+
+.contentCollapse {
+    width: 1023px;
+    color: #FF6060;
+    border-radius: 5px;
+    background: #F7F7F7;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.22px;
+} */

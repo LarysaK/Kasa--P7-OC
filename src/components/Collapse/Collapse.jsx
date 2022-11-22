@@ -6,16 +6,16 @@ import iconCollapse from "../Images/icon-collapse.svg"
 function Collapse({ title, content }) {
     const [isOpen, setIsOpen] = useState(false)
     return isOpen ? (
-        <div className={"container"}>
-            <div className={"title"} onClick={() => setIsOpen(false)}>
+        <div className={"containerCollapse"}>
+            <div className={"titleCollapse"} onClick={() => setIsOpen(false)}>
             {title}
             <img src={iconCollapse} className={"iconOpen"} alt="" />
             </div>
-        <div className={"content"}>{content}</div>
+        <div className={"contentCollapse"}>{content}</div>
         </div>
     ) : (
-    <div className={"container"}>
-        <div className={"title"} onClick={() => setIsOpen(true)}>
+    <div className={"containerCollapse"}>
+        <div className={"titleCollapse"} onClick={() => setIsOpen(true)}>
         {title}
         <img src={iconCollapse} className={"icon"} alt=""/>
         </div>
