@@ -2,8 +2,12 @@ import React from 'react'
 import  "../../components/Lodging/Lodging.css"
 import FullStar from "../Images/full-star.png"
 import EmptyStar from "../Images/empty-star.png"
+import { useParams } from 'react-router-dom'
+import { getOneLodging } from '../../Data/lodgingsData'
 
-function LodgingDetails({ details }) {
+function LodgingDetails() {
+    const params=useParams()
+    const details = getOneLodging(params.id)
     const scaleRating = details.rating
 //  console.log(scaleRating)
 
@@ -16,9 +20,9 @@ function LodgingDetails({ details }) {
         }
     }
     return (
-    <div className={"container"}>
+    <div className={"containerLodging"}>
         <div className={"leftDetails"}>
-            <div className={"title"}>
+            <div className={"titleLodging"}>
                 {details.title}
             </div>
             <div className={"location"}>

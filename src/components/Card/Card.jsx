@@ -12,7 +12,7 @@ function Card() {
             <Link to={`/lodgings/${lodging.id}`} key={lodging.id}>
             <div key={lodging.id} className={"card"}>
                 <img src={lodging.cover} alt={lodging.title} className={"cover"}/>
-                <div className={"titlecard"}>{lodging.title}</div>
+                <div className={"titleCard"}>{lodging.title}</div>
             </div>
         </Link>
         ))}

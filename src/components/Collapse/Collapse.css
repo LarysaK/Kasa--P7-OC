@@ -1,5 +1,5 @@
 .containerCollapse {
-    width: 80%;
+    width: 85%;
     padding-right: 4rem;
     color: #ff6060;
 }
@@ -50,43 +50,58 @@
     width: auto;
 }
 
-/* .containerCollapse {
-    width: 1023px;
-    height: 184px;
+
+/*Media queries for mobiles*/
+/*===========================================*/
+@media (max-width: 480px) {
+    .containerCollapse {
+        width: 100%;
+        padding-right: 2rem;
+    }
+
+    .titleCollapse {
+        height: 30px;
+        font-size: 13px;
+    }
+    .icon {
+        width: 5%;
+        height: 30%;
+    }
+
+    .iconOpen {
+        width: 5%;
+        height: 30%;
+    }
+
+    .contentCollapse {
+        font-size: 12px;
+        padding: 1rem 1rem 1rem 1rem;
+    }
 }
 
-.titleCollapse {
-    width: 1023px;
-    height: 47px;
-    background: #FF6060;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Montserrat";
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 34.22px;
-    color: #FFFFFF;
-}
 
-.arrow {
-    transform: rotate(0deg);
-    transition: all 0.2s;
-}
 
-.arrowOpen {
-    transform: rotate(180deg);
-    transition: all 0.2s;
-}
+/*-----------------------------------------------*/
+/*Media queries for tabs*/
 
-.contentCollapse {
-    width: 1023px;
-    color: #FF6060;
-    border-radius: 5px;
-    background: #F7F7F7;
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34.22px;
-} */
+@media (min-width: 481px) and (max-width: 830px) {
+    .titleCollapse {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .icon {
+        width: 5%;
+        height: 30%;
+    }
+
+    .iconOpen {
+        width: 5%;
+        height: 30%;
+    }
+
+    .contentCollapse {
+        font-size: 12px;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}

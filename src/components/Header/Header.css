@@ -49,3 +49,51 @@
 .aboutNav:hover {
     text-decoration-line: underline;
 }
+
+
+
+/*-------------------------------------------*/
+/*Media queries for mobiles*/
+
+@media (max-width: 480px) {
+    .header {
+            margin: 1rem 2rem 0 2rem;
+        }
+        .logo {
+            width: 46.7%;
+            height: 10%;
+        }
+        .nav {
+            width: 50%;
+            text-transform: uppercase;
+        }
+        .homeNav {
+            font-size: 12px;
+        }
+        .aboutNav {
+            font-size: 12px;
+        }
+}
+
+
+/*-----------------------------------------------*/
+/*Media queries for tabs*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+.header {
+        margin: 1rem 2rem 0 2rem;
+    }
+    .logo {
+        width: 26.7%;
+        height: 8%;
+    }
+    .nav {
+        width: 40%;
+    }
+    .homeNav {
+        font-size: 16px;
+    }
+    .aboutNav {
+        font-size: 16px;
+    }
+}
