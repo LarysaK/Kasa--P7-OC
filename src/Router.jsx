@@ -11,7 +11,7 @@ function Router() {
                 <Route path="/" element={<Home />} />
                 <Route path="/lodgings/:id" element={<Lodgings />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/*" element={<Notfound />} /> 
+                <Route path="*" element={<Notfound />} /> 
             </Routes>
         </div>
     );

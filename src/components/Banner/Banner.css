@@ -30,7 +30,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 120;
     color: #ffffff;
 }
 
@@ -60,7 +59,7 @@
     .titleHome {
         font-size: 24px;
         padding-left: 16px;
-        width: 100%; 
+        width: 55%; 
     }
 }
 
