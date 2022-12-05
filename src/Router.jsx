@@ -6,6 +6,7 @@ import Lodgings from "./pages/LogementPage/logementPage";
 
 function Router() {
     return (
+        // Le composant Route nous aide à établir le lien entre l'interface utilisateur du composant et l'URL
         <div>
             <Routes>
                 <Route path="/" element={<Home />} />

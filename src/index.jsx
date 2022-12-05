@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "./index.css";
 
-
+// Pour rendre un élément React, passez d'abord l'élément DOM à ReactDOM.createRoot(), puis passez l'élément React à root.render() :
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

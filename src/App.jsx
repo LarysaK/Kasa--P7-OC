@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
+    // BrowserRouter est une implémentation de routeur qui utilise l'API d'historique HTML5 pour synchroniserl'interface utilisateur avec l'URL.
     <BrowserRouter>
     <Header />
     <Router />

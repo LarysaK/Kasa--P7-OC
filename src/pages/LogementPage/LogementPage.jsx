@@ -5,7 +5,7 @@ import Slideshow from "../../components/Slides/Slides"
 import  "../LogementPage/logementPage.css"
 import LodgingDetails from "../../components/Lodging/Lodging"
 import Collapse from "../../components/Collapse/Collapse"
-/*import DataLodgings from Data folder*/
+//  import DataLodgings from Data folder
 import { DataLodgings } from "../../Data/lodgingsData"
 
 export default function Lodgings() {

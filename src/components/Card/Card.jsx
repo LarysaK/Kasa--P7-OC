@@ -9,7 +9,7 @@ function Card() {
     return (
     <div className={"backgroundCards"}>
         {lodgings.map((lodging) => (
-            <Link to={`/lodgings/${lodging.id}`} key={lodging.id}>
+            <Link to={`/lodgings/${lodging.id}`} key={lodging.id}>  
             <div key={lodging.id} className={"card"}>
                 <img src={lodging.cover} alt={lodging.title} className={"cover"}/>
                 <div className={"titleCard"}>{lodging.title}</div>
@@ -20,7 +20,7 @@ function Card() {
     )
 }
 
-//Proptypes to define the type of props for props security
+// Proptypes pour définir le type d'accessoires pour la sécurité des accessoires
 Card.propTypes = {
     key: PropTypes.string,
     title: PropTypes.string,
